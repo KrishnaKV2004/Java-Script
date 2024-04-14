@@ -184,7 +184,7 @@ console.log()
 console.log("In Seconds --> " + Math.floor(Date.now()/1000))
 
 /*
-    LocaleString Parameters -->
+    Locale String Parameters -->
 
     The toLocaleString() method of the Date object in JavaScript
     allows you to format a date and time value according to the
