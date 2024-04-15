@@ -5,6 +5,9 @@ console.log("Sort Methods In Array -->")
 console.log()
 
 let cars = ['Pagani','Porsche','Koenigsegg','Aston Martin']
+
+console.log("Array -->")
+console.log()
 console.log(cars)
 
 /*
@@ -61,7 +64,7 @@ console.log()
 console.log("Numeric Sort -->")
 console.log()
 
-let nums = ['27','100','404','07','54']
+let nums = [27, 100, 404, 7, 54]
 
 console.log(nums.sort())
 console.log(nums.sort((a,b) => a-b))
@@ -83,7 +86,7 @@ console.log()
 console.log("Random Sort -->")
 console.log()
 
-nums = ['27','100','404','07','54']
+nums = [27, 100, 404, 7, 54]
 
 console.log(nums.sort(() => Math.random() - 0.5))
 
@@ -173,3 +176,48 @@ function fisherYates(array)
 
 let shuffledNums = fisherYates(nums)
 console.log(shuffledNums)
+
+/*
+    Finding Minimum and Maximum in an array -->
+
+    Methods             Description
+
+    Math.min()          finds the lowest number in an array
+                        doesn't work on arrays directly
+    Math.max()          finds the highest number in an array
+                        doesn't work on arrays directly
+    Math.min.apply      find lowest number in an array
+                        can be used on arrays directly
+    Math.max.apply      find highest number in an array
+                        can be used on arrays directly
+
+    ~ We can also use '(...)' spread operators to pass array as arguments
+*/
+
+console.log()
+console.log("Minimum And Maximum -->")
+console.log()
+
+nums = [27, 4, 65, 29, 42]
+
+console.log("Array --> " + nums)
+console.log()
+console.log("Minimum --> " + Math.min(...nums))
+console.log("Maximum --> " + Math.max.apply(null,nums))
+
+/*
+    Parameters -->
+
+    The apply() method accepts two parameters -->
+
+    thisArg:    The value of this provided for the function when executing it.
+                In the context of Math.min(), the this value is not used,
+                so it's typically set to null or undefined
+
+    argsArray:  An array-like object that contains the arguments to pass
+                to the function. This can be an array or an array-like object
+
+    null:       It represents the this value inside the Math.min() function.
+                Since Math.min() is a static method and doesn't depend on
+                any object context (this), you can pass null or undefined
+*/
