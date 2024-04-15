@@ -5,34 +5,34 @@ console.log("Array Methods -->")
 console.log()
 
 /*
-    Method          Description
+    Method              Description
 
-    length          returns the length (size) of an array
-    toString()      converts an array to a string of
-                    (comma separated) array values   
-    at()            returns an indexed element from an array
-    join()          joins all array elements into a string.
-                    It behaves just like toString(),
-                    but in addition you can specify the separator
-    pop             removes the last element from an array
-    push()          adds a new element to an array (at the end)
-    shift()         removes the first array element and "shifts"
-                    all other elements to a lower index
-    unshift()       adds a new element to an array (at the beginning)
-                    and "unshifts" older elements
-    delete()        deletes element at specified index
-    concat()        creates a new array by merging
-                    (concatenating) existing arrays
-    copyWithin()    copies array elements to another position in an array
-    flat()          creates a new array with sub-array
-                    elements concatenated to a specified depth
-    slice()         slices out a piece of an array into a new array
-    splice()        can be used to add new items to an array
-    toSpliced()     safe way to splice an array without
-                    altering the original array
+    • length            returns the length (size) of an array
+    • toString()        converts an array to a string of
+                        (comma separated) array values   
+    • at()              returns an indexed element from an array
+    • join()            joins all array elements into a string.
+                        It behaves just like toString(),
+                        but in addition you can specify the separator
+    • pop()             removes the last element from an array
+    • push()            adds a new element to an array (at the end)
+    • shift()           removes the first array element and "shifts"
+                        all other elements to a lower index
+    • unshift()         adds a new element to an array (at the beginning)
+                        and "unshifts" older elements
+    • delete()          deletes element at specified index
+    • concat()          creates a new array by merging
+                        (concatenating) existing arrays
+    • copyWithin()      copies array elements to another position in an array
+    • flat()            creates a new array with sub-array
+                        elements concatenated to a specified depth
+    • slice()           slices out a piece of an array into a new array
+    • splice()          can be used to add new items to an array
+    • toSpliced()       safe way to splice an array without
+                        altering the original array
 
     ~ Using delete() leaves undefined holes in the array
-      Use pop() or shift() instead.
+      Use pop() or shift() instead
 */
 
 let cars = ['Huayra', '911 Turbo', 'GTR R34']
