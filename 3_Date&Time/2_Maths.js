@@ -50,7 +50,7 @@ console.log(Math.max(...numList))   //  Returns minimum among the list of argume
 
 /*
     ~ In Math.max() method we have used '...' spread operator
-    which seperates the elements of list as individual arguments for method !
+      which seperates the elements of list as individual arguments for method !
 */
 
 //  Trigonometry Methods -->
@@ -75,18 +75,18 @@ console.log(Math.tan(45 * Math.PI / 180))   //  Returns tan of number
 
     Try out these methods own your own !
 
-    Method          Description
+    Method              Description
 
-    acos(x)         Returns the arccosine of x, in radians
-    acosh(x)	    Returns the hyperbolic arccosine of x
-    asin(x)	        Returns the arcsine of x, in radians
-    asinh(x)	    Returns the hyperbolic arcsine of x
-    atan(x)	        Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
-    atan2(y, x)	    Returns the arctangent of the quotient of its arguments
-    atanh(x)	    Returns the hyperbolic arctangent of x
-    cbrt(x)	        Returns the cubic root of x
-    cosh(x)	        Returns the hyperbolic cosine of x
-    exp(x)	        Returns the value of Ex
-    sinh(x)	        Returns the hyperbolic sine of x
-    tanh(x)	        Returns the hyperbolic tangent of a number
+    • acos(x)           Returns the arccosine of x, in radians
+    • acosh(x)	        Returns the hyperbolic arccosine of x
+    • asin(x)	        Returns the arcsine of x, in radians
+    • asinh(x)	        Returns the hyperbolic arcsine of x
+    • atan(x)	        Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+    • atan2(y, x)	    Returns the arctangent of the quotient of its arguments
+    • atanh(x)	        Returns the hyperbolic arctangent of x
+    • cbrt(x)	        Returns the cubic root of x
+    • cosh(x)	        Returns the hyperbolic cosine of x
+    • exp(x)	        Returns the value of Ex
+    • sinh(x)	        Returns the hyperbolic sine of x
+    • tanh(x)	        Returns the hyperbolic tangent of a number
 */

@@ -104,15 +104,15 @@ let currDate = new Date("2024-03-27")
 /*
     Date Get Methods -->
 
-    getFullYear()	        Get year as a four digit number (yyyy)
-    getMonth()	            Get month as a number (0-11)
-    getDate()	            Get day as a number (1-31)
-    getDay()	            Get weekday as a number (0-6)
-    getHours()	            Get hour (0-23)
-    getMinutes()	        Get minute (0-59)
-    getSeconds()	        Get second (0-59)
-    getMilliseconds()	    Get millisecond (0-999)
-    getTime()	            Get time (milliseconds since January 1, 1970)
+    • getFullYear()	            Get year as a four digit number (yyyy)
+    • getMonth()	            Get month as a number (0-11)
+    • getDate()	                Get day as a number (1-31)
+    • getDay()	                Get weekday as a number (0-6)
+    • getHours()	            Get hour (0-23)
+    • getMinutes()	            Get minute (0-59)
+    • getSeconds()	            Get second (0-59)
+    • getMilliseconds()	        Get millisecond (0-999)
+    • getTime()	                Get time (milliseconds since January 1, 1970)
 
     ~ Try these methods own your own and check out the result !
 */
@@ -132,14 +132,14 @@ console.log("Year --> " + currDate.getFullYear())
 
     Set Methods -->
 
-    setDate()	            Set the day as a number (1-31)
-    setFullYear()	        Set the year (optionally month and day)
-    setHours()	            Set the hour (0-23)
-    setMilliseconds()	    Set the milliseconds (0-999)
-    setMinutes()	        Set the minutes (0-59)
-    setMonth()	            Set the month (0-11)
-    setSeconds()	        Set the seconds (0-59)
-    setTime()	            Set the time (milliseconds since January 1, 1970)
+    • setDate()	            Set the day as a number (1-31)
+    • setFullYear()	        Set the year (optionally month and day)
+    • setHours()	        Set the hour (0-23)
+    • setMilliseconds()	    Set the milliseconds (0-999)
+    • setMinutes()	        Set the minutes (0-59)
+    • setMonth()	        Set the month (0-11)
+    • setSeconds()	        Set the seconds (0-59)
+    • setTime()	            Set the time (milliseconds since January 1, 1970)
 */
 
 console.log()
@@ -197,32 +197,32 @@ console.log("In Seconds --> " + Math.floor(Date.now()/1000))
 
     options: An optional object that defines some properties of the output string:
 
-    timeZone:       Specifies the time zone to use.
-                    The default is the runtime's default time zone.
-    weekday:        Specifies whether to include the weekday (e.g., "Monday").
-                    Possible values are 'narrow', 'short', 'long'.
-    year:           Specifies whether to include the year.
-                    Possible values are 'numeric', '2-digit'.
-    month:          Specifies whether to include the month.
-                    Possible values are 'numeric', '2-digit', 'narrow', 'short', 'long'.
-    day:            Specifies whether to include the day.
-                    Possible values are 'numeric', '2-digit'.
-    hour:           Specifies whether to include the hour.
-                    Possible values are 'numeric', '2-digit'.
-    minute:         Specifies whether to include the minute.
-                    Possible values are 'numeric', '2-digit'.
-    second:         Specifies whether to include the second.
-                    Possible values are 'numeric', '2-digit'.
-    era:            Specifies whether to include the era (e.g., "AD").
-                    Possible values are 'narrow', 'short', 'long'.
-    formatMatcher:  Specifies how the function should match the locale to the options.
-                    Possible values are 'basic' and 'best fit'.
-    options:        Another optional object that defines properties for the date part:
+    • timeZone:         Specifies the time zone to use.
+                        The default is the runtime's default time zone.
+    • weekday:          Specifies whether to include the weekday (e.g., "Monday").
+                        Possible values are 'narrow', 'short', 'long'.
+    • year:             Specifies whether to include the year.
+                        Possible values are 'numeric', '2-digit'.
+    • month:            Specifies whether to include the month.
+                        Possible values are 'numeric', '2-digit', 'narrow', 'short', 'long'.
+    • day:              Specifies whether to include the day.
+                        Possible values are 'numeric', '2-digit'.
+    • hour:             Specifies whether to include the hour.
+                        Possible values are 'numeric', '2-digit'.
+    • minute:           Specifies whether to include the minute.
+                        Possible values are 'numeric', '2-digit'.
+    • second:           Specifies whether to include the second.
+                        Possible values are 'numeric', '2-digit'.
+    • era:              Specifies whether to include the era (e.g., "AD").
+                        Possible values are 'narrow', 'short', 'long'.
+    • formatMatcher:    Specifies how the function should match the locale to the options.
+                        Possible values are 'basic' and 'best fit'.
+    • options:          Another optional object that defines properties for the date part:
 
-    weekday:        Specifies whether to include the weekday.
-    year:           Specifies whether to include the year.
-    month:          Specifies whether to include the month.
-    day:            Specifies whether to include the day.
+    • weekday:          Specifies whether to include the weekday.
+    • year:             Specifies whether to include the year.
+    • month:            Specifies whether to include the month.
+    • day:              Specifies whether to include the day.
 */
 
 console.log()
