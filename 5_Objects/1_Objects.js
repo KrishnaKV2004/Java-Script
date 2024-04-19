@@ -80,3 +80,34 @@ console.log("Model --> " + car1.model)
 console.log("Power --> " + car1.power)
 console.log("Engine Options --> " + car1["engine options"])
 
+/*
+    Symbol as Object key -->
+
+    Declaration of Symbol -->
+    const symb = Symbol("Symbol name")
+
+    object =
+    {
+        [symb] : "Symbol"
+    }
+
+    Access --> object[symb]
+    console.log(object[symb])
+*/
+
+const symb = Symbol()
+
+let car2 =
+{
+    carName : 'Pagani Huayra',
+    horsePower : '900 HP',
+    [symb] : 'Pagani'
+}
+
+console.log()
+console.log("Car 2 -->")
+console.log()
+
+console.log(car2)
+console.log()
+console.log(`Symbol --> ${car2[symb]}`)

@@ -85,3 +85,46 @@ console.log()
 console.log("User Info -->")
 console.log()
 console.log(person)
+
+/*
+    Symbols are Unique -->
+
+    symbols are a primitive data type introduced in ECMAScript 2015 (ES6).
+    They are unique and immutable values that can be used as object property keys.
+    Symbols are often used when you need a property key that is guaranteed to be
+    unique and not accidentally overwritten
+
+    Creating a symbol -->
+
+    const symbol1 = Symbol()
+*/
+
+console.log()
+console.log("Symbols -->")
+console.log()
+
+let symb1 = Symbol()
+let symb2 = Symbol()
+
+console.log(symb1 === symb2)    //  Output --> False
+
+/*
+    Output is false as symbols are unique !
+
+    Symbols can also be used to create well-known symbols,
+    which are predefined symbols provided by JavaScript.
+    Some examples of well-known symbols include Symbol.iterator,
+    Symbol.toStringTag, and Symbol.hasInstance.
+
+    Using well-known symbols -->
+    
+    const arr = [1, 2, 3]
+    const iterator = arr[Symbol.iterator]()
+
+    console.log(iterator.next())    { value: 1, done: false }
+    console.log(iterator.next())    { value: 2, done: false }
+    console.log(iterator.next())    { value: 3, done: false }
+    console.log(iterator.next())    { value: undefined, done: true }
+
+    We'll discuss about that later !
+*/
