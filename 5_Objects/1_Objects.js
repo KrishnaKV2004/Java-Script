@@ -56,6 +56,10 @@ const car1 =
     "engine options" : ['V6','V8']
 }
 
+//  Changing a value -->
+
+car1.power = '750 HP'
+
 //  Accessing the Object -->
 
 console.log(car1)
@@ -111,3 +115,44 @@ console.log()
 console.log(car2)
 console.log()
 console.log(`Symbol --> ${car2[symb]}`)
+
+/*
+    Freezing an object -->
+
+    In JavaScript, you can use the Object.freeze() method to prevent
+    an object from being modified. When an object is frozen, you cannot add,
+    delete, or modify its properties
+
+    Suppose there is some intel about a user having a bank account
+    and you want to lock the details so that it can't be modified once
+    you have declared it
+*/
+
+console.log()
+console.log("Freezing Objects -->")
+console.log()
+
+let bankUser =
+{
+    userName : 'Krishna Verma',
+    accNumber : '27022004',
+    userMail : 'krishna2004@gmail.com',
+    userBalance : '$ 250000',
+    userContact : '99976XXXXX'
+}
+
+console.log("Bank Details -->")
+console.log()
+console.log(bankUser)
+console.log()
+
+Object.freeze(bankUser)
+
+//  bankUser is Freezed, Let's try to modify it
+
+bankUser.accNumber = '20040227'
+
+console.log(`Account Number --> ${bankUser.accNumber}`)
+
+//  You can see that the account number is not updated !
+
