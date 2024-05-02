@@ -90,5 +90,11 @@ function sum(a, b)
     return a + b
 }
 
+/*
+    If you console log a+b and store the function in a variable it will
+    be undefined as function will not return any value but if you are
+    returning a value then like above then it will show the result
+*/
+
 let total = sum(15,12)
 console.log(`Your Total Cost Will Be $ ${total}`)
