@@ -32,7 +32,6 @@
 
     //  Increment Decrement Operators -->
 
-    console.log()
     console.log("Increment/Decrement -->")
     console.log()
 
@@ -143,5 +142,31 @@
     //  Syntax --> <condition> ? if true : if false
 
     a>b ? console.log(a) : console.log(b)
+
+    /*
+        Nullish Coalescing Operator (??) -->
+
+        The nullish coalescing operator (??) is a logical operator introduced
+        in JavaScript as part of ECMAScript 2020 (ES11). It provides a
+        convenient way to handle default values for cases where a variable is
+        either null or undefined
+
+        variable = value1 ?? value2
+
+        If value1 is not null or undefined, it's returned
+        If value1 is null or undefined, value2 is returned
+        
+        The nullish coalescing operator differs from the logical OR (||) operator
+        in how it handles "falsy" values other than null and undefined.
+        The ?? operator only checks for null or undefined, whereas the || operator
+        checks for any "falsy" value (null, undefined, 0, "", etc)
+    */
+
+    let car
+    car = null ?? "GTR"
+
+    console.log()
+    console.log("Null Coalescing Operator -->")
+    console.log(car)
 
     //  Try out more operators on your own !

@@ -110,3 +110,27 @@ else
 num = 10
 let result = num > 0 ? "Positive" : "Non-Positive"
 console.log(result)
+
+/*
+    In JavaScript, values are considered "truthy" if they coerce to true
+    when evaluated in a Boolean context, and "falsy" if they coerce to false
+
+    Falsy Values -->
+
+    false       The boolean value false itself.
+    0           The number zero.
+    -0          Negative zero.
+    0n          BigInt zero.
+    ""          An empty string.
+    null        Represents the absence of any value or object.
+    undefined   Represents an uninitialized value.
+    NaN         Which arises from an operation that cannot produce
+                a meaningfulresult
+
+    Thruthy Values -->
+
+    true        The boolean value true itself.
+    Numbers     Other than 0 (positive or negative).
+    Strings     With at least one character.
+    Arrays, objects, and functions (even if empty).
+*/
