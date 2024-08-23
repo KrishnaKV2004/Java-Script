@@ -27,6 +27,13 @@
     })();
 
     ~ Semicolons are used in end of the IIFE to end the context
+
+    With Parameter -->
+
+    ((name) =>
+    {
+        console.log(Hello ${name})
+    })('Seoul');
 */
 
 console.clear()
