@@ -1,5 +1,7 @@
 //  Execution Context In JavaScript -->
 
+//  ! Before Moving ahead make sure to complete functions for better understanding
+
 /*
     In JavaScript, the execution context is a concept that defines the
     environment in which JavaScript code is executed. Each time a function
