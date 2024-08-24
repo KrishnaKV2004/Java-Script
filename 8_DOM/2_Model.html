@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+</head>
+<body>
+    <div class="card">
+        <h1 class="heading">Card</h1>
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+</body>
+</html>
+
+<!--
+    This is just an example to understand the model
+    The DOM of this HTML file is in 2_Model.png
+    also there is text representation at the end !
+
+    In that model we will be making a tree to understand the
+    structure/model of this code
+-->
+<!--
+    Some Terms Used In DOM ->
+    
+    ~ Window Object ->
+
+    The window object is the topmost object in the DOM hierarchy.
+    It represents the browser window or frame that contains the web page.
+    The window object is the global object in the browser's environment,
+    meaning it contains properties and methods that allow you to interact
+    with the browser itself, such as opening new windows, alerting messages,
+    setting timeouts, and interacting with the DOM through the document object
+
+    Example Properties/Methods ->
+
+    window.alert(): Displays an alert box.
+    window.setTimeout(): Calls a function after a specified delay.
+    window.document: Refers to the document object that represents the web page.
+
+    ~ Document Object->
+
+    The document object is a property of the window object and represents the
+    entire HTML document. It acts as an entry point to the content of the web
+    page and provides methods and properties to interact with and manipulate
+    the elements within the page.
+
+    Example Properties/Methods ->
+
+    document.getElementById(): Retrieves an element by its ID.
+    document.querySelector(): Retrieves the first element that matches a CSS selector.
+    document.createElement(): Creates a new HTML element.
+-->
+<!--
+    MODEL ->
+
+    Window
+    └── Document
+         ├── <!DOCTYPE html>
+         └── <html lang="en"> (HTML Element)
+              ├── <head> (Head Element)
+              │    ├── <meta charset="UTF-8"> (Meta Element)
+              │    └── <title>DOM</title> (Title Element)
+              └── <body> (Body Element)
+                   └── <div class="card"> (Div Element)
+                        ├── <h1 class="heading">Card</h1> (H1 Element)
+                        └── <p>Lorem ipsum dolor sit amet</p> (Paragraph Element)
+-->
