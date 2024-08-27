@@ -44,10 +44,21 @@ console.log(element.innerHTML)
 element.innerHTML = '<strong>Updated Text</strong>'
 
 /*
+    innerText -->
+
+    Description: provides the text inside an element, excluding any HTML tags
+*/
+
+let element = document.getElementById('example')
+console.log(element.innerText)
+
+/*
     textContent -->
 
     Description: Represents the text content inside an element,
     excluding any HTML tags.
+
+    ~ Also shows content hidden by CSS propertiies etc unlike innerText !
 */
 
 let element = document.querySelector('.card-text')
